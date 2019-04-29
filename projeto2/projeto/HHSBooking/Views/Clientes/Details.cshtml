@@ -1,0 +1,72 @@
+﻿@model HHSBooking.Clientes
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Clientes</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Sobrenome)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Sobrenome)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Contacto)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Contacto)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Morada)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Morada)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Localidade)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Localidade)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CodPostal)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CodPostal)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Cc)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Cc)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DataNasc)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DataNasc)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Idcliente">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
