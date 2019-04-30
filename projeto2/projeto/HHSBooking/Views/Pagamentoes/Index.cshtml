@@ -1,0 +1,65 @@
+﻿@model IEnumerable<HHSBooking.Pagamento>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NomeTitular)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NumCartao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataValidadeCartao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cvv)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descricao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdtipoPagamentoNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NomeTitular)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NumCartao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataValidadeCartao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cvv)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descricao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdtipoPagamentoNavigation.Designacao)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.CodPagamento">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.CodPagamento">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.CodPagamento">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
