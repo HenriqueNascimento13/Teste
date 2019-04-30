@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Henrique\\Desktop\\Projectos2\\hhs\\HHSBooking\\HHSBooking.csproj": {}
+    "C:\\Users\\Henrique\\Desktop\\Projectos2\\prjrede1\\github1\\projeto\\HHSBooking\\HHSBooking.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Henrique\\Desktop\\Projectos2\\hhs\\HHSBooking\\HHSBooking.csproj": {
+    "C:\\Users\\Henrique\\Desktop\\Projectos2\\prjrede1\\github1\\projeto\\HHSBooking\\HHSBooking.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Henrique\\Desktop\\Projectos2\\hhs\\HHSBooking\\HHSBooking.csproj",
+        "projectUniqueName": "C:\\Users\\Henrique\\Desktop\\Projectos2\\prjrede1\\github1\\projeto\\HHSBooking\\HHSBooking.csproj",
         "projectName": "HHSBooking",
-        "projectPath": "C:\\Users\\Henrique\\Desktop\\Projectos2\\hhs\\HHSBooking\\HHSBooking.csproj",
+        "projectPath": "C:\\Users\\Henrique\\Desktop\\Projectos2\\prjrede1\\github1\\projeto\\HHSBooking\\HHSBooking.csproj",
         "packagesPath": "C:\\Users\\Henrique\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Henrique\\Desktop\\Projectos2\\hhs\\HHSBooking\\obj\\",
+        "outputPath": "C:\\Users\\Henrique\\Desktop\\Projectos2\\prjrede1\\github1\\projeto\\HHSBooking\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
