@@ -1,0 +1,83 @@
+﻿@model IEnumerable<HHSBooking.Reservas>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.QuantAdultos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QuantCriancas)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CheckIn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CheckOut)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CodPagamentoNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdclienteNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdhotelNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdregimeNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdtipoQuartoNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.QuantAdultos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QuantCriancas)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CheckIn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CheckOut)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CodPagamentoNavigation.DataValidadeCartao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdclienteNavigation.Cc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdhotelNavigation.CodPostal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdregimeNavigation.TipoRegime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdtipoQuartoNavigation.Descricao)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Idreserva">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Idreserva">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Idreserva">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
