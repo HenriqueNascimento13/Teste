@@ -1,0 +1,30 @@
+﻿@model HHSBooking.ServicosHotel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ServicosHotel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.IdhotelNavigation)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.IdhotelNavigation.CodPostal)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Idservicos">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
