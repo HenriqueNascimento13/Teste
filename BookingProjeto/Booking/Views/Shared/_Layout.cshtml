@@ -34,17 +34,39 @@
                     <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
                 </ul>
-                <partial name="_LoginPartial" />
             </div>
         </div>
     </nav>
+
+    <div class="jumbotron" id="jumbotron">
+        <div class="jumbotron jumbotron-fluid" id="form" style="background-color: rgba(0, 0, 0, 0.5)">
+            <div class="container-fluid">
+                <form class="form-inline" action="/action_page.php" style="width: 100%">
+                    <label for="entrada">Entrada:</label>
+                    <input type="date" class="form-control" id="entrada">
+
+                    <label for="saida">Saída:</label>
+                    <input type="date" class="form-control" id="saida">
+
+                    <label for="adultos">Adultos:</label>
+                    <input type="number" class="form-control" id="adultos">
+
+                    <label for="criancas">Crianças (2-12):</label>
+                    <input type="number" class="form-control" id="criancas">
+
+                    <label for="bbs">Bebês:</label>
+                    <input type="number" class="form-control" id="bbs">
+                </form>
+            </div>
+        </div>
+    </div>
 
     <partial name="_CookieConsentPartial" />
 
     <div class="container body-content">
         @RenderBody()
         <hr />
-        <footer>
+        <footer style=" bottom: 0%; position:page;">
             <p>&copy; 2019 - Booking</p>
         </footer>
     </div>
