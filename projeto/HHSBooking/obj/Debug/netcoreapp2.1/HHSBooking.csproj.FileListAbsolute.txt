@@ -154,3 +154,4 @@ C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\Ti
 C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\TipoQuartoes\Details.g.cshtml.cs
 C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\TipoQuartoes\Edit.g.cshtml.cs
 C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\TipoQuartoes\Index.g.cshtml.cs
+C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LayoutBack.g.cshtml.cs
