@@ -25,6 +25,7 @@ namespace HHSBooking
         public virtual DbSet<ServicosHotel> ServicosHotel { get; set; }
         public virtual DbSet<TipoPagamento> TipoPagamento { get; set; }
         public virtual DbSet<TipoQuarto> TipoQuarto { get; set; }
+        public virtual DbSet<Utilizadores> Utilizadores { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -304,6 +305,19 @@ namespace HHSBooking
                     .HasForeignKey(d => d.Idhotel)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_TipoQuarto_Hoteis");
+            });
+
+            modelBuilder.Entity<Utilizadores>(entity =>
+            {
+                entity.HasKey(e => e.Email);
+
+                entity.Property(e => e.Email)
+                    .HasMaxLength(150)
+                    .ValueGeneratedNever();
+
+                entity.Property(e => e.Pass)
+                    .IsRequired()
+                    .HasMaxLength(50);
             });
 
             OnModelCreatingPartial(modelBuilder);

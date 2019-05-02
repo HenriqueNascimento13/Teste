@@ -139,11 +139,6 @@ C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\Ti
 C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\TipoPagamentoes\Details.g.cshtml.cs
 C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\TipoPagamentoes\Edit.g.cshtml.cs
 C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\TipoPagamentoes\Index.g.cshtml.cs
-C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Create.g.cshtml.cs
-C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Delete.g.cshtml.cs
-C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Details.g.cshtml.cs
-C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Edit.g.cshtml.cs
-C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Index.g.cshtml.cs
 C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\Hoteis\Create.g.cshtml.cs
 C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\Hoteis\Delete.g.cshtml.cs
 C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\Hoteis\Details.g.cshtml.cs
@@ -155,3 +150,13 @@ C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\Ti
 C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\TipoQuartoes\Edit.g.cshtml.cs
 C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\TipoQuartoes\Index.g.cshtml.cs
 C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LayoutBack.g.cshtml.cs
+C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Create.g.cshtml.cs
+C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Delete.g.cshtml.cs
+C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Details.g.cshtml.cs
+C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Edit.g.cshtml.cs
+C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Index.g.cshtml.cs
+C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\Utilizadores\Create.g.cshtml.cs
+C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\Utilizadores\Delete.g.cshtml.cs
+C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\Utilizadores\Details.g.cshtml.cs
+C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\Utilizadores\Edit.g.cshtml.cs
+C:\Users\admin\Desktop\projeto\HHSBooking\obj\Debug\netcoreapp2.1\Razor\Views\Utilizadores\Index.g.cshtml.cs
