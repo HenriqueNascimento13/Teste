@@ -1,17 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace HHSBooking.Models
+namespace HHSBooking
 {
-    public class EspecificacoesQuarto
+    public partial class EspecificacoesQuarto
     {
-        public int IDEspecificacao { get; set; }
-        public long IDTipoQuarto { get; set; }
-
-        [Required]
+        public short Idespecificacao { get; set; }
+        public long IdtipoQuarto { get; set; }
         public string Descricao { get; set; }
+
+        public virtual TipoQuarto IdtipoQuartoNavigation { get; set; }
     }
 }

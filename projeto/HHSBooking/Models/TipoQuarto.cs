@@ -1,23 +1,27 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace HHSBooking.Models
+namespace HHSBooking
 {
-    public class TipoQuarto
+    public partial class TipoQuarto
     {
-        public long IDTipoQaurto { get; set; }
-        public long IDHotel { get; set; }
+        public TipoQuarto()
+        {
+            EspecificacoesQuarto = new HashSet<EspecificacoesQuarto>();
+            Precario = new HashSet<Precario>();
+            Reservas = new HashSet<Reservas>();
+        }
 
-        [Required]
-        public int Capacidade { get; set; }
-
-        [Required]
+        public long IdtipoQuarto { get; set; }
+        public long Idhotel { get; set; }
+        public byte Capacidade { get; set; }
         public int Inventario { get; set; }
-
-        [Required]
         public string Descricao { get; set; }
+        public string Imagem { get; set; }
+
+        public virtual Hoteis IdhotelNavigation { get; set; }
+        public virtual ICollection<EspecificacoesQuarto> EspecificacoesQuarto { get; set; }
+        public virtual ICollection<Precario> Precario { get; set; }
+        public virtual ICollection<Reservas> Reservas { get; set; }
     }
 }

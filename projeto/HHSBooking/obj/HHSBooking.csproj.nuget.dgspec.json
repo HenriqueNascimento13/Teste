@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Temp\\Git\\TesteGitZuca\\projeto\\HHSBooking\\HHSBooking.csproj": {}
+    "C:\\Users\\admin\\Desktop\\projeto\\HHSBooking\\HHSBooking.csproj": {}
   },
   "projects": {
-    "C:\\Temp\\Git\\TesteGitZuca\\projeto\\HHSBooking\\HHSBooking.csproj": {
+    "C:\\Users\\admin\\Desktop\\projeto\\HHSBooking\\HHSBooking.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Temp\\Git\\TesteGitZuca\\projeto\\HHSBooking\\HHSBooking.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\projeto\\HHSBooking\\HHSBooking.csproj",
         "projectName": "HHSBooking",
-        "projectPath": "C:\\Temp\\Git\\TesteGitZuca\\projeto\\HHSBooking\\HHSBooking.csproj",
+        "projectPath": "C:\\Users\\admin\\Desktop\\projeto\\HHSBooking\\HHSBooking.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Temp\\Git\\TesteGitZuca\\projeto\\HHSBooking\\obj\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\projeto\\HHSBooking\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,6 +41,14 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
+            "JavaScriptEngineSwitcher.ChakraCore": {
+              "target": "Package",
+              "version": "[3.0.10, )"
+            },
+            "JavaScriptEngineSwitcher.Extensions.MsDependencyInjection": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -52,11 +60,47 @@
               "target": "Package",
               "version": "[2.1.2, )"
             },
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.FileProviders.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.FileProviders.Physical": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.FileSystemGlobbing": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Primitives": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.1.9, )"
+            },
+            "React.AspNet": {
+              "target": "Package",
+              "version": "[4.1.1, )"
             }
           },
           "imports": [

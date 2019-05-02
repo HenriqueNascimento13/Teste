@@ -1,21 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace HHSBooking.Models
+namespace HHSBooking
 {
-    public class Precario
+    public partial class Precario
     {
-        public int IDRegime { get; set; }
-        public long IDTipoQuarto { get; set; }
-
-        [Required]
+        public byte Idregime { get; set; }
+        public long IdtipoQuarto { get; set; }
         public DateTime Data { get; set; }
-
-        [Required]
-        [Display(Name = "Preço")]
         public decimal Preco { get; set; }
+
+        public virtual Regimes IdregimeNavigation { get; set; }
+        public virtual TipoQuarto IdtipoQuartoNavigation { get; set; }
     }
 }

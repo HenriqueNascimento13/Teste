@@ -1,47 +1,32 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace HHSBooking.Models
+namespace HHSBooking
 {
-    public class Hoteis
+    public partial class Hoteis
     {
-        [Display(Name = " Id do hotel")]
-        public long IDHotel { get; set; }
+        public Hoteis()
+        {
+            Regimes = new HashSet<Regimes>();
+            Reservas = new HashSet<Reservas>();
+            ServicosHotel = new HashSet<ServicosHotel>();
+            TipoQuarto = new HashSet<TipoQuarto>();
+        }
 
-        [Required]
-        [Display(Name = " Nome do Hotel")]
-        public string nomeHotel { get; set; }
-
-        [Required]
-        [Range(1, 5)]
-        [Display(Name = "Nª de Estrelas")]
-        public string numEstrelas { get; set; }
-
-        [Required]
-        [Display(Name = "Morada")]
+        public long Idhotel { get; set; }
+        public string NomeHotel { get; set; }
+        public string NumEstrelas { get; set; }
         public string Morada { get; set; }
-
-        [Required]
-        [Display(Name = "Localidade")]
         public string Localidade { get; set; }
-
-        [Required]
-        [Display(Name = "Codigo Postal")]
-        public string codPostal { get; set; }
-
-        [Required]
-        [Display(Name = "País")]
+        public string CodPostal { get; set; }
         public string Pais { get; set; }
-
-        [Required]
-        [Display(Name = "Quartos")]
-        public int quantQuarto { get; set; }
-
-        [Required]
-        [Display(Name = "Descrição")]
+        public short QuantidadeQuartos { get; set; }
         public string Descricao { get; set; }
+        public string Imagem { get; set; }
+
+        public virtual ICollection<Regimes> Regimes { get; set; }
+        public virtual ICollection<Reservas> Reservas { get; set; }
+        public virtual ICollection<ServicosHotel> ServicosHotel { get; set; }
+        public virtual ICollection<TipoQuarto> TipoQuarto { get; set; }
     }
 }
