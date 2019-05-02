@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Henrique\\Desktop\\Projectos2\\hhs\\HHSBooking\\HHSBooking.csproj": {}
+    "C:\\Temp\\Git\\TesteGitZuca\\projeto\\HHSBooking\\HHSBooking.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Henrique\\Desktop\\Projectos2\\hhs\\HHSBooking\\HHSBooking.csproj": {
+    "C:\\Temp\\Git\\TesteGitZuca\\projeto\\HHSBooking\\HHSBooking.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Henrique\\Desktop\\Projectos2\\hhs\\HHSBooking\\HHSBooking.csproj",
+        "projectUniqueName": "C:\\Temp\\Git\\TesteGitZuca\\projeto\\HHSBooking\\HHSBooking.csproj",
         "projectName": "HHSBooking",
-        "projectPath": "C:\\Users\\Henrique\\Desktop\\Projectos2\\hhs\\HHSBooking\\HHSBooking.csproj",
-        "packagesPath": "C:\\Users\\Henrique\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Henrique\\Desktop\\Projectos2\\hhs\\HHSBooking\\obj\\",
+        "projectPath": "C:\\Temp\\Git\\TesteGitZuca\\projeto\\HHSBooking\\HHSBooking.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Temp\\Git\\TesteGitZuca\\projeto\\HHSBooking\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Henrique\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -53,6 +53,7 @@
               "version": "[2.1.2, )"
             },
             "Microsoft.NETCore.App": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
