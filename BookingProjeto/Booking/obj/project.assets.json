@@ -10589,11 +10589,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Henrique\\Desktop\\BookingProjeto\\Booking\\Booking.csproj",
+      "projectUniqueName": "C:\\Users\\Henrique\\Desktop\\yha\\Teste-337fe2153086a39851a2e4735f7051c9339a67e5\\BookingProjeto\\Booking\\Booking.csproj",
       "projectName": "Booking",
-      "projectPath": "C:\\Users\\Henrique\\Desktop\\BookingProjeto\\Booking\\Booking.csproj",
+      "projectPath": "C:\\Users\\Henrique\\Desktop\\yha\\Teste-337fe2153086a39851a2e4735f7051c9339a67e5\\BookingProjeto\\Booking\\Booking.csproj",
       "packagesPath": "C:\\Users\\Henrique\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Henrique\\Desktop\\BookingProjeto\\Booking\\obj\\",
+      "outputPath": "C:\\Users\\Henrique\\Desktop\\yha\\Teste-337fe2153086a39851a2e4735f7051c9339a67e5\\BookingProjeto\\Booking\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

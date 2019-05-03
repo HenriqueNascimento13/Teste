@@ -2,7 +2,7 @@
 for details on configuring this project to bundle and minify static web assets. */
 body {
     padding-top: 50px;
-    background-color: rgb( 234,234,234);
+    padding-bottom: 20px;
 }
 
 /* Wrapping element */
@@ -12,39 +12,26 @@ body {
     padding-right: 15px;
 }
 
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
 
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
 
 /* QR code generator */
 #qrCode {
     margin: 15px;
 }
 
-
-#jumbotron {
-    margin-top: 0.5%;
-    background-image: url(https://r.lvmh-static.com/uploads/2017/12/exterieur-1-1584x872.jpg);
-    background-size: cover;
-    background-repeat: no-repeat, repeat;
-    width: 100%;
-    position: center;
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
 }
-
-#form {
-    font: bold;
-    opacity: 1;
-    position: relative;
-    bottom: 0px;
-    font-family: Arial;
-    font-size: 15px;
-}
-
-#main {
-    border: none;
-    background-color: rgb(255,255,255);
-    margin-bottom: 3%;
-}
-
-#img {
-    border: none;
-}
-

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+﻿<!DOCTYPE html> <!-- antigo -->
 <html>
 <head>
     <meta charset="utf-8" />
@@ -34,9 +34,12 @@
                     <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
                 </ul>
+                <partial name="_LoginPartial" />
             </div>
         </div>
     </nav>
+
+    <partial name="_CookieConsentPartial" />
 
     <div class="jumbotron" id="jumbotron">
         <div class="jumbotron jumbotron-fluid" id="form" style="background-color: rgba(0, 0, 0, 0.5)">
@@ -61,12 +64,10 @@
         </div>
     </div>
 
-    <partial name="_CookieConsentPartial" />
-
     <div class="container body-content">
         @RenderBody()
         <hr />
-        <footer style=" bottom: 0%; position:page;">
+        <footer>
             <p>&copy; 2019 - Booking</p>
         </footer>
     </div>
